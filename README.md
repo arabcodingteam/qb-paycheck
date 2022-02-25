@@ -8,8 +8,9 @@ end
     
 if PlayerData.metadata['paycheck'] ~= nil then     -- add this metadata to core / server / player 
   PlayerData.metadata['paycheck'] = {
-      ["amount"] = PlayerData.metadata['paycheck']["amount"] or 0,
-      ["ispaymentday"] = PlayerData.metadata['paycheck']["ispaymentday"] or false,
+    ["amount"] = PlayerData.metadata['paycheck']["amount"] or 0,
+    ["ispaymentday"] = PlayerData.metadata['paycheck']["ispaymentday"] or false,
+    ["ispaid"] = PlayerData.metadata['paycheck']["ispaid"] or false,
   }
 else
   PlayerData.metadata['paycheck'] = {
