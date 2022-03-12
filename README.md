@@ -1,7 +1,7 @@
 # qb-paycheck
-
-
+```
 # add this to core
+```
 function QBCore.Functions.GetQBPlayers()   -- add this function to the core if you dont have it
     return QBCore.Players
 end
@@ -36,7 +36,8 @@ self.Functions.PayCheck = function(amount, ispaymentday, ispaid)    -- add this 
   end
   self.Functions.UpdatePlayerData()
 end
+```
 
-
-
+```
 # Important   You need to disable this >>[ PaycheckLoop() ]<< function in core
+```
