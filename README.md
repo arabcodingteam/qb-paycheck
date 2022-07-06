@@ -1,7 +1,7 @@
 # qb-paycheck
 ```
 # add this to core
-
+```
 ```
 function QBCore.Functions.GetQBPlayers()   -- add this function to the core if you dont have it
     return QBCore.Players
