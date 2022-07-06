@@ -1,11 +1,12 @@
 # qb-paycheck
 ```
 # add this to core
+
 ```
 function QBCore.Functions.GetQBPlayers()   -- add this function to the core if you dont have it
     return QBCore.Players
 end
-    
+   
 if PlayerData.metadata['paycheck'] ~= nil then     -- add this metadata to core / server / player 
   PlayerData.metadata['paycheck'] = {
     ["amount"] = PlayerData.metadata['paycheck']["amount"] or 0,
